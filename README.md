@@ -89,8 +89,14 @@ We want to allow access to an S3 bucket, so leave the domain as S3.
 
 Create your server.
 
-<img width="1429" alt="Screen Shot 2025-06-17 at 9 21 40 AM" src="https://github.com/user-attachments/assets/b280fbd0-83db-45fd-bdbb-d5a34feeaacc" />
+<img width="1385" alt="Screen Shot 2025-06-17 at 9 21 30 AM" src="https://github.com/user-attachments/assets/c41a6d6d-4148-4530-b41e-00572b6cc4af" />
+
+Now we need to add user to the server. We will assign the custom role we created that allows S3 access to the bucket. Choose the demo-bucket-1092 we created.
+
 <img width="1410" alt="Screen Shot 2025-06-17 at 9 21 49 AM" src="https://github.com/user-attachments/assets/02c89d58-3a7b-4f33-8530-65fd0f146d20" />
+
+
+
 <img width="21" alt="Screen Shot 2025-06-17 at 9 22 08 AM" src="https://github.com/user-attachments/assets/13d9c2af-d21d-4c22-bc7a-d282317fff48" />
 <img width="1197" alt="Screen Shot 2025-06-17 at 9 22 15 AM" src="https://github.com/user-attachments/assets/f0cfe916-67d6-4414-9ce7-ff2380fe8681" />
 <img width="369" alt="Screen Shot 2025-06-17 at 9 23 16 AM" src="https://github.com/user-attachments/assets/cac88882-683c-418d-94fc-727ca1a04b2e" />
