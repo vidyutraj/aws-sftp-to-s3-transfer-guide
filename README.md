@@ -125,7 +125,6 @@ We need to generate a public and private key pair:
 3. Enter the passphrase for the private key file
 
 <img width="1320" alt="Screen Shot 2025-06-17 at 9 27 39 AM" src="https://github.com/user-attachments/assets/25850910-c715-4a8f-a850-fff7703b243c" />
-<img width="909" alt="Screen Shot 2025-06-17 at 9 33 53 AM" src="https://github.com/user-attachments/assets/522a81ac-c4d8-4a72-912e-2ab322e9b719" />
 <img width="914" alt="Screen Shot 2025-06-17 at 9 34 03 AM" src="https://github.com/user-attachments/assets/f5ea179e-e902-4a80-a514-08d868d53fac" />
 
 ### 5. Testing the Setup
