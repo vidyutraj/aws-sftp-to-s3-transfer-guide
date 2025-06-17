@@ -104,7 +104,6 @@ We need to generate a public and private key pair:
 3. The public key will be stored in `id_rsa.pub`
 4. Enter a passphrase for authentication
 
-<img width="21" alt="Screen Shot 2025-06-17 at 9 22 08 AM" src="https://github.com/user-attachments/assets/13d9c2af-d21d-4c22-bc7a-d282317fff48" />
 <img width="1197" alt="Screen Shot 2025-06-17 at 9 22 15 AM" src="https://github.com/user-attachments/assets/f0cfe916-67d6-4414-9ce7-ff2380fe8681" />
 
 #### Adding Public Key:
