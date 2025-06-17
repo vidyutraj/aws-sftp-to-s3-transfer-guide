@@ -92,6 +92,8 @@ Add a user to the server:
 
 <img width="1410" alt="Screen Shot 2025-06-17 at 9 21 49 AM" src="https://github.com/user-attachments/assets/02c89d58-3a7b-4f33-8530-65fd0f146d20" />
 
+<img width="1197" alt="Screen Shot 2025-06-17 at 9 22 15 AM" src="https://github.com/user-attachments/assets/f0cfe916-67d6-4414-9ce7-ff2380fe8681" />
+
 ### 4. SSH Key Generation
 
 We need to generate a public and private key pair:
@@ -103,8 +105,6 @@ We need to generate a public and private key pair:
 2. The private key will be stored in `id_rsa`
 3. The public key will be stored in `id_rsa.pub`
 4. Enter a passphrase for authentication
-
-<img width="1197" alt="Screen Shot 2025-06-17 at 9 22 15 AM" src="https://github.com/user-attachments/assets/f0cfe916-67d6-4414-9ce7-ff2380fe8681" />
 
 #### Adding Public Key:
 1. Use command: `cat id_rsa.pub` to read the public key
