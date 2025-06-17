@@ -26,8 +26,17 @@ To accomplish these goals, we'll work with the following AWS services:
   - Managing user permissions
   - Controlling access to S3 buckets
 
+## Setup Steps
+
+### 1. S3 Bucket Creation
 First, we can create our target S3 bucket. This will be the location where our SFTP uploads will go. I will be using the demo-bucket-1092 for this lab.
+
 <img width="1705" alt="Screen Shot 2025-06-17 at 9 16 13 AM" src="https://github.com/user-attachments/assets/0e8015f5-d3e1-43c7-a977-c5d1d207381a" />
+
+### 2. IAM
+
+Once we've created our S3 bucket, we now need to set up an IAM role to enable to enable a trust relationship. This gives the users permissions to do this SFTP action. 
+
 <img width="962" alt="Screen Shot 2025-06-17 at 9 17 13 AM" src="https://github.com/user-attachments/assets/bdb0844c-c240-4aeb-a11d-0faa5fe9677f" />
 <img width="1728" alt="Screen Shot 2025-06-17 at 9 17 32 AM" src="https://github.com/user-attachments/assets/7e0da5b5-2c8c-474a-aa77-b4d734ae492c" />
 <img width="1102" alt="Screen Shot 2025-06-17 at 9 17 51 AM" src="https://github.com/user-attachments/assets/79d60297-d8bd-4b08-bf0c-bc538279f41d" />
