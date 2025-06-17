@@ -56,18 +56,39 @@ Now we can attach the AmazonS3FullAccess policy, create a name for the role, and
 
 <img width="958" alt="Screen Shot 2025-06-17 at 9 18 25 AM" src="https://github.com/user-attachments/assets/82d62f3b-8d50-4e6a-9f47-3fd4b1271f5a" />
 
-Now we can go into the role we titled as "userSFTPaccess" and edit the trust policy. We want to change the "Service" line by changing "ec2.amazonaws.com" to "transfer.amazonaws.com"
+Now we can go into the role we titled as "userSFTPaccess" and edit the trust policy. We want to change the "Service" line by changing "ec2.amazonaws.com" to "transfer.amazonaws.com". This allows us to use AWS Transfer.
 
 <img width="1425" alt="Screen Shot 2025-06-17 at 9 18 49 AM" src="https://github.com/user-attachments/assets/01a5b251-ef1b-439a-8bbd-f4f80dca06f6" />
 <img width="662" alt="Screen Shot 2025-06-17 at 9 19 19 AM" src="https://github.com/user-attachments/assets/01e1b4ff-b49c-4209-a759-85f3bba66a91" />
 <img width="1442" alt="Screen Shot 2025-06-17 at 9 19 36 AM" src="https://github.com/user-attachments/assets/5bd58d0b-f1c4-4c54-bf44-9f2fdcbab323" />
+
+### 3. AWS Transfer: SFTP
+
+Now we can set up our SSH-based SFTP server. (Note that an SFTP server costs $0.30 per hour)
 <img width="932" alt="Screen Shot 2025-06-17 at 9 19 51 AM" src="https://github.com/user-attachments/assets/acc243d1-af53-476f-9a31-93937636b528" />
 <img width="1253" alt="Screen Shot 2025-06-17 at 9 20 12 AM" src="https://github.com/user-attachments/assets/9a35ec3f-1f64-4a6f-b391-1214776ca3c4" />
+
+Now we can edit our server configurations. We can enable the SFTP protocol for our file based server.
+
 <img width="830" alt="Screen Shot 2025-06-17 at 9 20 23 AM" src="https://github.com/user-attachments/assets/2111dc70-aa94-416c-8ede-019a2225f973" />
+
+Leave it on "service managed". This lets us control the user accounts with this specific service as opposed to linking my SFTP server to AWS Directory Service.
+
+
 <img width="1377" alt="Screen Shot 2025-06-17 at 9 20 35 AM" src="https://github.com/user-attachments/assets/8ff66835-14dc-491c-910a-9daa2f5057c1" />
+
+Leave it as "Publicly Accessible". Leave it as none to use the default server endpoint.
+
+If your organization or agency needs to comply to Federal Information Processing Standards (FIPS), you can enable it as a FIPS enabled endpoint.
+
 <img width="1024" alt="Screen Shot 2025-06-17 at 9 20 48 AM" src="https://github.com/user-attachments/assets/32bf9da2-c45f-4ddd-9903-903b6f00a58b" />
+
+We want to allow access to an S3 bucket, so leave the domain as S3.
+
 <img width="1001" alt="Screen Shot 2025-06-17 at 9 21 12 AM" src="https://github.com/user-attachments/assets/ec039c25-c09e-45d2-8e63-eddc9b97abf1" />
-<img width="1385" alt="Screen Shot 2025-06-17 at 9 21 30 AM" src="https://github.com/user-attachments/assets/c41a6d6d-4148-4530-b41e-00572b6cc4af" />
+
+Create your server.
+
 <img width="1429" alt="Screen Shot 2025-06-17 at 9 21 40 AM" src="https://github.com/user-attachments/assets/b280fbd0-83db-45fd-bdbb-d5a34feeaacc" />
 <img width="1410" alt="Screen Shot 2025-06-17 at 9 21 49 AM" src="https://github.com/user-attachments/assets/02c89d58-3a7b-4f33-8530-65fd0f146d20" />
 <img width="21" alt="Screen Shot 2025-06-17 at 9 22 08 AM" src="https://github.com/user-attachments/assets/13d9c2af-d21d-4c22-bc7a-d282317fff48" />
