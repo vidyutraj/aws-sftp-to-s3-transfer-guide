@@ -38,12 +38,16 @@ First, we can create our target S3 bucket. This will be the location where our S
 Once we've created our S3 bucket, we now need to set up an IAM role to enable to enable a trust relationship. This gives the users permissions to do this SFTP action. 
 
 Navigate to IAM --> Go to Roles --> Create role
+
 <img width="962" alt="Screen Shot 2025-06-17 at 9 17 13 AM" src="https://github.com/user-attachments/assets/bdb0844c-c240-4aeb-a11d-0faa5fe9677f" />
 <img width="1728" alt="Screen Shot 2025-06-17 at 9 17 32 AM" src="https://github.com/user-attachments/assets/7e0da5b5-2c8c-474a-aa77-b4d734ae492c" />
 
+
 We can select AWS service for the "Trusted entity type" and select EC2 for the use case.
+
 <img width="1102" alt="Screen Shot 2025-06-17 at 9 17 51 AM" src="https://github.com/user-attachments/assets/79d60297-d8bd-4b08-bf0c-bc538279f41d" />
 <img width="1080" alt="Screen Shot 2025-06-17 at 9 18 07 AM" src="https://github.com/user-attachments/assets/48f73f01-41da-417c-a169-28c14d9c5e7e" />
+
 
 placehlder
 
