@@ -47,10 +47,12 @@ Navigate to IAM --> Go to Roles --> Create role
 We can select AWS service for the "Trusted entity type" and select EC2 for the use case.
 
 <img width="1102" alt="Screen Shot 2025-06-17 at 9 17 51 AM" src="https://github.com/user-attachments/assets/79d60297-d8bd-4b08-bf0c-bc538279f41d" />
+
+Now we can attach the AmazonS3FullAccess policy.
+
+
 <img width="1080" alt="Screen Shot 2025-06-17 at 9 18 07 AM" src="https://github.com/user-attachments/assets/48f73f01-41da-417c-a169-28c14d9c5e7e" />
 
-
-placehlder
 
 <img width="958" alt="Screen Shot 2025-06-17 at 9 18 25 AM" src="https://github.com/user-attachments/assets/82d62f3b-8d50-4e6a-9f47-3fd4b1271f5a" />
 <img width="1425" alt="Screen Shot 2025-06-17 at 9 18 49 AM" src="https://github.com/user-attachments/assets/01a5b251-ef1b-439a-8bbd-f4f80dca06f6" />
