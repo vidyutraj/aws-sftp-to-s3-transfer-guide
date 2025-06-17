@@ -1,4 +1,31 @@
 # Using SFTP over an SSH encrypted connection to get content into an S3 bucket by configuring an AWS Transfer Server
+
+SFTP (SSH File Transfer Protocol) is a secure file transfer protocol that provides a reliable and encrypted way to transfer files between systems. It operates over SSH (Secure Shell) and offers several advantages over traditional FTP, including:
+- Encrypted data transfer for enhanced security
+- Built-in authentication and access control
+- Support for file operations like upload, download, rename, and delete
+- Ability to resume interrupted transfers
+- Compatibility with various operating systems and clients
+
+This guide will walk you through setting up an AWS Transfer Server to enable secure SFTP transfers directly to Amazon S3 buckets.
+
+## Goals
+The primary objectives of this project are to:
+1. Set up an AWS Transfer Family server that supports SFTP protocol
+2. Configure secure SSH-based authentication for file transfers
+3. Establish a direct connection between the SFTP server and an S3 bucket
+4. Enable secure file transfers from external hosts to the S3 bucket
+5. Implement proper access controls and security measures
+
+### AWS Services We'll Use
+To accomplish these goals, we'll work with the following AWS services:
+- **Amazon S3**: For storing the transferred files
+- **AWS Transfer Family**: To provide the SFTP server endpoint
+- **IAM (Identity and Access Management)**: 
+  - For creating roles and policies
+  - Managing user permissions
+  - Controlling access to S3 buckets
+
 <img width="1725" alt="Screen Shot 2025-06-17 at 9 15 26 AM" src="https://github.com/user-attachments/assets/a37cd7eb-bf2b-40b6-ba1e-3985dc39fa37" />
 <img width="1705" alt="Screen Shot 2025-06-17 at 9 16 13 AM" src="https://github.com/user-attachments/assets/0e8015f5-d3e1-43c7-a977-c5d1d207381a" />
 <img width="962" alt="Screen Shot 2025-06-17 at 9 17 13 AM" src="https://github.com/user-attachments/assets/bdb0844c-c240-4aeb-a11d-0faa5fe9677f" />
