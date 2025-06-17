@@ -59,7 +59,6 @@ Now we can attach the AmazonS3FullAccess policy, create a name for the role, and
 Now we can go into the role we titled as "userSFTPaccess" and edit the trust policy. We want to change the "Service" line by changing EC2 to Transfer.
 
 <img width="1425" alt="Screen Shot 2025-06-17 at 9 18 49 AM" src="https://github.com/user-attachments/assets/01a5b251-ef1b-439a-8bbd-f4f80dca06f6" />
-<img width="567" alt="Screen Shot 2025-06-17 at 9 19 11 AM" src="https://github.com/user-attachments/assets/587ddf84-cc81-4a83-a3ac-33878762ecb3" />
 <img width="662" alt="Screen Shot 2025-06-17 at 9 19 19 AM" src="https://github.com/user-attachments/assets/01e1b4ff-b49c-4209-a759-85f3bba66a91" />
 <img width="1442" alt="Screen Shot 2025-06-17 at 9 19 36 AM" src="https://github.com/user-attachments/assets/5bd58d0b-f1c4-4c54-bf44-9f2fdcbab323" />
 <img width="932" alt="Screen Shot 2025-06-17 at 9 19 51 AM" src="https://github.com/user-attachments/assets/acc243d1-af53-476f-9a31-93937636b528" />
