@@ -43,6 +43,7 @@ Navigate to IAM --> Go to Roles --> Create role
 <img width="1728" alt="Screen Shot 2025-06-17 at 9 17 32 AM" src="https://github.com/user-attachments/assets/7e0da5b5-2c8c-474a-aa77-b4d734ae492c" />
 
 
+
 We can select AWS service for the "Trusted entity type" and select EC2 for the use case.
 
 <img width="1102" alt="Screen Shot 2025-06-17 at 9 17 51 AM" src="https://github.com/user-attachments/assets/79d60297-d8bd-4b08-bf0c-bc538279f41d" />
