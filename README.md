@@ -112,15 +112,21 @@ We need to generate a public and private key pair:
 3. Paste it into the AWS console
 
 <img width="369" alt="Screen Shot 2025-06-17 at 9 23 16 AM" src="https://github.com/user-attachments/assets/cac88882-683c-418d-94fc-727ca1a04b2e" />
+
 <img width="682" alt="Screen Shot 2025-06-17 at 9 23 53 AM" src="https://github.com/user-attachments/assets/69185287-d4f3-445d-89c8-f300b947c44e" />
+
+<img width="924" alt="Screen Shot 2025-06-17 at 9 26 28 AM" src="https://github.com/user-attachments/assets/d063ce14-6613-477c-8970-581adaa7e1cd" />
+
+<img width="1656" alt="Screen Shot 2025-06-17 at 9 26 57 AM" src="https://github.com/user-attachments/assets/9f0b8442-bc78-4065-8414-730de571f6ec" />
 
 #### Connecting to Server:
 1. Find the server endpoint in the server details
 2. Use command: `sftp -i id_rsa [your_user]@endpoint`
 3. Enter the passphrase for the private key file
 
-<img width="924" alt="Screen Shot 2025-06-17 at 9 26 28 AM" src="https://github.com/user-attachments/assets/d063ce14-6613-477c-8970-581adaa7e1cd" />
-<img width="1656" alt="Screen Shot 2025-06-17 at 9 26 57 AM" src="https://github.com/user-attachments/assets/9f0b8442-bc78-4065-8414-730de571f6ec" />
+<img width="1431" alt="Screen Shot 2025-06-17 at 9 27 21 AM" src="https://github.com/user-attachments/assets/1abea24c-7f67-4311-93c0-b8a2e3ebfd30" />
+<img width="1320" alt="Screen Shot 2025-06-17 at 9 27 39 AM" src="https://github.com/user-attachments/assets/25850910-c715-4a8f-a850-fff7703b243c" />
+<img width="851" alt="Screen Shot 2025-06-17 at 9 28 11 AM" src="https://github.com/user-attachments/assets/e78e0a63-0ecb-40c4-b00e-8eea585727ab" />
 
 ### 5. Testing the Setup
 
@@ -128,9 +134,6 @@ Test the SFTP connection:
 1. Use the SFTP `put` command to upload a file from your local SSH folder
 2. Verify the upload in your S3 bucket through the AWS console
 
-<img width="1431" alt="Screen Shot 2025-06-17 at 9 27 21 AM" src="https://github.com/user-attachments/assets/1abea24c-7f67-4311-93c0-b8a2e3ebfd30" />
-<img width="1320" alt="Screen Shot 2025-06-17 at 9 27 39 AM" src="https://github.com/user-attachments/assets/25850910-c715-4a8f-a850-fff7703b243c" />
-<img width="851" alt="Screen Shot 2025-06-17 at 9 28 11 AM" src="https://github.com/user-attachments/assets/e78e0a63-0ecb-40c4-b00e-8eea585727ab" />
 <img width="909" alt="Screen Shot 2025-06-17 at 9 33 53 AM" src="https://github.com/user-attachments/assets/522a81ac-c4d8-4a72-912e-2ab322e9b719" />
 <img width="914" alt="Screen Shot 2025-06-17 at 9 34 03 AM" src="https://github.com/user-attachments/assets/f5ea179e-e902-4a80-a514-08d868d53fac" />
 <img width="918" alt="Screen Shot 2025-06-17 at 9 34 55 AM" src="https://github.com/user-attachments/assets/e97703b7-bbfa-45f0-9e22-c5fa8846f130" />
